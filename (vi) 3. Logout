@@ -1,0 +1,6 @@
+Edit .bash_logout:
+echo "Terima kasih atas sesi yang diberikan"
+sleep 5
+clear
+
+Saat logout, pesan tampil lalu ditahan 5 detik sebelum layar dibersihkan.
