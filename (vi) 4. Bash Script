@@ -1,0 +1,22 @@
+Buat p1.sh, p2.sh, p3.sh:
+# p1.sh
+#!/bin/bash
+echo "Program p1"
+ls -l
+
+# p2.sh
+#!/bin/bash
+echo "Program p2"
+who
+
+# p3.sh
+#!/bin/bash
+echo "Program p3"
+ps x
+
+Jalankan:
+./p1.sh ; ./p3.sh ; ./p2.sh
+./p1.sh &
+./p1.sh
+./p2.sh & ./p3.sh &
+(./p1.sh ; ./p3.sh) &
