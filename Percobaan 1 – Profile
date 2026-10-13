@@ -1,0 +1,7 @@
+ls -a
+more .bash_profile
+cat .bash_logout
+cat .bashrc
+cat .bash_history
+
+Untuk melihat file profile, logout, bashrc, dan history milik user.
