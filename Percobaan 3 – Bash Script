@@ -1,0 +1,34 @@
+nano p1.sh
+
+isinya yaitu: 
+#!/bin/bash
+echo "Nama Mahasiswa: Rifky Armediansyah Putra"
+echo "Sistem Komputer"
+
+Kemudian:
+ls -l p1.sh
+chmod +x p1.sh
+ls -l p1.sh
+bash p1.sh
+sh p1.sh
+. p1.sh
+./p1.sh
+
+Buat p2.sh:
+#!/bin/bash
+echo "Program 2 bash script"
+
+Jalankan beberapa perintah:
+cat p1.sh ; cat p2.sh
+./p1.sh ; ./p2.sh
+./p1.sh &
+./p2.sh &
+(ls ; who) > hasil &
+cat hasil
+
+Penjelasan:
+; = jalankan berurutan.
+
+& = background.
+
+( ... ) & = jalankan dalam satu subshell background.
