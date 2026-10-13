@@ -1,0 +1,18 @@
+HISTSIZE=20
+history
+! -5
+!!
+!150
+!ls
+
+Penjelasan:
+
+HISTSIZE=20 → batasi history menjadi 20.
+
+! -5 → ulangi perintah 5 langkah sebelumnya.
+
+!! → ulangi perintah terakhir.
+
+!150 → ulangi perintah nomor 150.
+
+!ls → ulangi perintah terakhir yang diawali ls
