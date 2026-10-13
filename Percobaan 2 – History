@@ -1,0 +1,6 @@
+echo $HISTSIZE
+history
+fc -l
+fc -l 85 88
+
+Untuk melihat batas history, daftar history, dan menampilkan history nomor tertentu.
