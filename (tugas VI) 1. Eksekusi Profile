@@ -15,3 +15,13 @@ echo "Profile dari .profile"
 echo "Profile dari .bashrc"
 
 Lalu sesuaikan nama file dengan pesan masing-masing.
+
+c. Perbedaan su dan su -:
+su mahasiswa
+exit
+su - mahasiswa
+exit
+
+su mahasiswa: pindah user, tetapi environment dan profile login tidak sepenuhnya dimuat ulang.
+
+su - mahasiswa: login shell penuh, environment direset, masuk ke home directory, dan membaca file profile seperti login baru.
