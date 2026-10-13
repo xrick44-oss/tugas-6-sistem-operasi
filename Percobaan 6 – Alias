@@ -1,0 +1,10 @@
+alias
+alias del='rm -i'
+alias h='history'
+ls
+del hasil
+h | more
+unalias del
+del files
+
+alias memberi nama pendek untuk perintah. unalias menghapus alias.
