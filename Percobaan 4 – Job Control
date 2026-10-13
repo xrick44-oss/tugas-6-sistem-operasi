@@ -1,0 +1,24 @@
+ps x
+ps x > hasil &
+jobs
+
+Buat ploop.sh:
+#!/bin/bash
+while [ true ]
+do
+  sleep 10
+  echo "Hallo"
+done
+
+Jalankan:
+chmod +x ploop.sh
+./ploop.sh
+./ploop.sh &
+jobs
+fg %1
+
+Tekan Ctrl-Z, lalu:
+bg
+jobs
+
+Berfungsi untuk mengelola job foreground/background.
