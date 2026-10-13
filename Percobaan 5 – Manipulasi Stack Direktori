@@ -1,0 +1,18 @@
+dirs
+mkdir marketing sales support
+pushd sales
+pwd
+pushd /home/mahasiswa/support
+pwd
+pushd ../marketing
+pwd
+pushd
+pushd
+pushd
+pushd +2
+pwd
+popd
+popd +2
+dirs
+
+pushd, popd, dirs untuk mengelola stack direktori.
