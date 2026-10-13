@@ -1,0 +1,19 @@
+Buat pwaktu.sh:
+#!/bin/bash
+while [ true ]
+do
+  date >> hasil
+  sleep 10
+done
+
+Jalankan:
+./pwaktu.sh &
+jobs
+find / -print > files 2>/dev/null &
+jobs
+fg %1
+
+Tekan Ctrl-Z, lalu:
+bg
+ps x
+kill [Nomor PID]
