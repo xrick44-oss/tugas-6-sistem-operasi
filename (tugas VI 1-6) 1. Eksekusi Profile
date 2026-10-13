@@ -1,0 +1,17 @@
+a. Edit /etc/profile: sudo nano /etc/profile
+
+Tambahkan: echo "Profile dari /etc/profile"
+
+b. Edit file profile user: 
+nano ~/.bash_profile
+nano ~/.bash_login
+nano ~/.profile
+nano ~/.bashrc
+
+Contoh isi:
+echo "Profile dari .bash_profile"
+echo "Profile dari .bash_login"
+echo "Profile dari .profile"
+echo "Profile dari .bashrc"
+
+Lalu sesuaikan nama file dengan pesan masing-masing.
